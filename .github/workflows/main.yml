@@ -3,7 +3,7 @@ name: Deploy Spring Boot Backend
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   IMAGE_NAME: vennilavan123/onlineshop
