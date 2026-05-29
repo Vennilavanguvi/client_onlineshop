@@ -53,5 +53,5 @@ jobs:
             docker run -d \
               --name backend \
               --restart always \
-              -p 8080:8080 \
+              -p 80:80 \
               $IMAGE_NAME:$IMAGE_TAG
